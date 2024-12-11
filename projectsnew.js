@@ -14,10 +14,20 @@ gallery.addEventListener("click",function(){
     document.body.classList.remove("contact");
     document.body.classList.remove("back");
     
+
     const hideButtons = document.querySelectorAll(".hide");
+    const appearButtons = document.querySelectorAll(".uncover");
+
+    // Mostrar botones con la clase "hide"
     hideButtons.forEach(button => {
-        button.style.display = "block"; 
+        button.style.display = "block";
     });
+
+    // Ocultar botones con la clase "uncover"
+    appearButtons.forEach(button => {
+        button.style.display = "none";
+    });
+
 })
 
 
@@ -36,10 +46,15 @@ back.addEventListener("click",function(){
     document.body.classList.remove("gallery");
 
     const hideButtons = document.querySelectorAll(".hide");
+    const appearButtons = document.querySelectorAll(".uncover");
+
     hideButtons.forEach(button => {
-        button.style.display = "block"; 
+        button.style.display = "block";
     });
-   
+
+    appearButtons.forEach(button => {
+        button.style.display = "none";
+    });
 })
 
 
@@ -58,9 +73,16 @@ retail.addEventListener("click",function(){
     document.body.classList.remove("back");
 
     const hideButtons = document.querySelectorAll(".hide");
+    const appearButtons = document.querySelectorAll(".uncover");
+
     hideButtons.forEach(button => {
-    button.style.display = "none"; 
+        button.style.display = "none";
     });
+
+    appearButtons.forEach(button => {
+        button.style.display = "block";
+    });
+
 })
 
 graphic.addEventListener("click",function(){
@@ -78,8 +100,14 @@ graphic.addEventListener("click",function(){
     document.body.classList.remove("contact");
 
     const hideButtons = document.querySelectorAll(".hide");
+    const appearButtons = document.querySelectorAll(".uncover");
+
     hideButtons.forEach(button => {
-    button.style.display = "none"; 
+        button.style.display = "none";
+    });
+
+    appearButtons.forEach(button => {
+        button.style.display = "block";
     });
 })
 
@@ -99,8 +127,14 @@ textile.addEventListener("click",function(){
     document.body.classList.remove("contact");
 
     const hideButtons = document.querySelectorAll(".hide");
+    const appearButtons = document.querySelectorAll(".uncover");
+
     hideButtons.forEach(button => {
-    button.style.display = "none"; 
+        button.style.display = "none";
+    });
+
+    appearButtons.forEach(button => {
+        button.style.display = "block";
     });
 })
  
@@ -120,8 +154,14 @@ branding.addEventListener("click",function(){
     document.body.classList.remove("contact");
 
     const hideButtons = document.querySelectorAll(".hide");
+    const appearButtons = document.querySelectorAll(".uncover");
+
     hideButtons.forEach(button => {
-    button.style.display = "none"; 
+        button.style.display = "none";
+    });
+
+    appearButtons.forEach(button => {
+        button.style.display = "block";
     });
 })
 

@@ -10,7 +10,7 @@ header{
     align-items: center;
     background-color: rgb(243, 240, 228);
     color: rgb(12, 11, 11);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: DM Serif Text;
     font-size: 1.5vw;
     letter-spacing: 1px; 
 }
@@ -446,7 +446,8 @@ img .icon{
     button {
         max-width:90%;
         max-height:90%;
-        font-size: 2vw;
+        font-size: 2.3vw;
+    
     }
 
     #mywork {
@@ -506,10 +507,18 @@ img .icon{
         .info-form{
             transform:scale (0.60);
         }
+
+        button {
+            max-width:100%;
+            max-height:100%;
+            font-size: 3.2vw;
+        
+        }
     
         #email{
             font-size: 0.1rem;
          }
+
              
        
     }
