@@ -15,37 +15,56 @@
 			<h1 id="title">My Portfolio</h1>	
 			
             <div id="nav">
-				<a href=""><button id="home">Home</button></a>
-				<a href=""><button id="gallery">My Projects</button></a>
-				<a href=""><button id="contact">Contact Form</button></a>
+				<a href="index.html" id="home">Home</a>
+				<a href="projects.html" id="gallery">My Projects</a>
+				<a href="contact.html" id="contact">Contact Form</a>
             </div>	
 		</header>
 
 		<main>
-            <section id="container">
+            <section class="container">
                 <div class="form">
-                <div class="contact-info"></div>
+                <div class="contact-info">
+                    <h3 class="title"> Let's Get in Touch</h3>
+                    <p> Feel free to contact me for any questions, I am happy to answer</p>
+                    <div class="information">
+                        <img src="location.png" class="icon" alt="">
+                        <p class="info-form"> Calgary, Alberta, Canada.</p>
+                    </div>
+                    <div class="information">
+                        <img src="email.png" class="icon" alt="">
+                        <p class="info-form"> macaperezcobo@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="phone.png" class="icon" alt="">
+                        <p class="info-form">+1 (403) 615-0904 </p>
+                    </div>
+                </div>
                 <div class="contact-form">
                     <span class="circleone"></span>
                     <span class="circletwo"></span>
 
                     <form action="indexthree.html">
                         <h3 class="title">Contact Me</h3>
-                        <div class="input-container">
+                        <div class="input-container focus">
                         <input type="text" name="name" class="input">
                         <label for="">Username</label>
+                        <span>Username</span>
                         </div>
-                        <div class="input-container">
+                        <div class="input-container focus">
                             <input type="email" name="email" class="input">
                             <label for="">Email</label>
+                            <span>Email</span>
                         </div>
-                        <div class="input-container">
+                        <div class="input-container focus">
                             <input type="tel" name="phone" class="input">
                             <label for="">Phone</label>
+                            <span>Phone</span>
                         </div>
-                        <div class="input-container textarea">
+                        <div class="input-container textarea focus">
                             <textarea name="message" class="input"></textarea>
                             <label for="">Message</label>
+                            <span>Message</span>
                         </div>
                         <input type="submit" value="Send" class="btn"/>
 
