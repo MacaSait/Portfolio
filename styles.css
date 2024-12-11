@@ -39,6 +39,11 @@ a {
     margin: 0.2rem;
 }
 
+.socialmedia{
+    border:none;
+    padding:none;
+}
+
 body{
     background-color: rgb(65, 63, 63);
     display: flex;
@@ -404,6 +409,11 @@ input-container.focus span:after{
     width: 25px;
     height: auto;
     padding-bottom: 1rem;
+    border-radius: none;
+}
+
+a .icon{
+    border: none;
 }
 
 img .icon{
