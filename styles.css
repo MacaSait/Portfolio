@@ -58,8 +58,20 @@ img{
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-
 }
+
+
+
+.uncover{
+    display:none;
+}
+
+#work_description{
+    margin: 10rem;
+    align-items: center;
+    color: #fafafa;
+}
+
 
 #one{
     display:flex;
@@ -454,6 +466,10 @@ img .icon{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #work_description{
+        margin:2rem;
     }
 
     img{
